@@ -11,7 +11,7 @@ import httpx
 http_client = httpx.Client(verify=False)
 
 # Setting up Important variables
-openai.api_base = "https://api.nlp.dev.uptimize.merckgroup.com"
+openai.api_base = "**"
 openai.api_type = "azure"
 openai.api_version = "2024-02-01"
 openai.api_key = "***"  # Use a secure way to store your API key
