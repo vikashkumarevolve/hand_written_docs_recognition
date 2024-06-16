@@ -14,7 +14,7 @@ http_client = httpx.Client(verify=False)
 openai.api_base = "https://api.nlp.dev.uptimize.merckgroup.com"
 openai.api_type = "azure"
 openai.api_version = "2024-02-01"
-openai.api_key = "04509d31-10fc-4459-88e7-7808217e0788"  # Use a secure way to store your API key
+openai.api_key = "***"  # Use a secure way to store your API key
 model = "gpt-4o"
 
 # Setting Up AzureOpenAI Client
